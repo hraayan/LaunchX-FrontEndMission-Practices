@@ -10,4 +10,7 @@ Les dejé unos programas con los ejemplos que estuvimos viendo en los diferentes
 - [Textos](./programas/4.-textos.css)
 
 ## Práctica
+![image](https://user-images.githubusercontent.com/47004189/158096218-ad814a9f-8054-4f61-83a5-4dc8dd317b4b.png)
+## Captura Result
+![captura-final](https://user-images.githubusercontent.com/47004189/158096545-771f310b-8871-45b1-81e8-b3d1ba227bce.png)
 
