@@ -1,0 +1,141 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    margin-left: 5%;
+}
+.btn-main{
+    background-color:RGB(54, 86, 211) ;
+    color: white;
+    margin-left: 10px;
+    align-items: center;
+    border-color:8px rgb(57, 140, 235) ;
+    
+}
+/* links a la derecha */
+.links{
+    text-align: right;
+    position: absolute;
+    left: 55%;
+    
+}
+a.nav-link{
+    margin: 10px;
+}
+img.img{
+    right: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    /* transform: scale(1.01); */
+    
+}
+.first-content{
+    position: relative;
+    left: 23%;
+    right: 50%;
+   
+    font-size:22px;
+    color: rgba(167,167,167,1);
+    margin-top: 10%;
+}
+
+.insignias{
+    margin-left: -4.5%;
+    width: 55%;
+    font-size: large;
+}
+.image{
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    
+    left: 50.5%;
+    right: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.info{
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: -8px 8px 8px  rgb(163, 163, 163);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+}
+div.marcas{
+    height: 80%;
+    width: 90%;
+}
+.faq-title{
+    left: 10%;
+    text-align: center;
+    
+}
+p.faq-title{
+    left: 50;
+    font-size: 1.4rem;
+    text-align: center;
+    right: auto;
+    justify-content: center;
+    
+}
+.faq-cards{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+   
+}
+.card{
+    height: 100%;
+    font-size: large;
+    box-shadow: -5px 5px 5px rgba(141, 193, 224, 0.952);
+}
+.prep{
+    
+    position: relative;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+.prep-p{
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-left: 8%;
+    margin-right: auto;
+    width: 80%;
+    
+}
+.img-prep{
+    margin-top: 7%;
+    margin-left: -1%;
+}
+.rcards{
+    
+    margin-top: 2%;
+    margin-right: auto;
+    width: 48%;
+}
+.accordion{
+    border-radius: 10px;
+    box-shadow: 4px 8px 4px rgba(141, 193, 224, 0.952);
+}
+.prep-t{
+    float: right;
+    
+}
+/* .prep-i{
+    float: left;
+} */
+.footer{
+    margin-top: 40%;
+    bottom: 0;
+    margin-bottom: 0%;
+    
+    background: linear-gradient(90deg, #a1c4fd 0%, #c2e9fb 100%);
+    position: relative;
+}
