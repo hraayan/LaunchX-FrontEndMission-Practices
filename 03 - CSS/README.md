@@ -4,10 +4,10 @@
 
 Les dejé unos programas con los ejemplos que estuvimos viendo en los diferentes lives.
 
-- [Selectores](./programas/1.-selectores.html)
-- [Colores](./programas/2.-colores.css)
-- [Fondos](./programas/3.-fondos.css)
-- [Textos](./programas/4.-textos.css)
+- [Selectores]
+- [Colores]
+- [Fondos]
+- [Textos]
 
 ## Práctica
 ![image](https://user-images.githubusercontent.com/47004189/158096218-ad814a9f-8054-4f61-83a5-4dc8dd317b4b.png)
