@@ -1,0 +1,192 @@
+body{
+    /* background: linear-gradient(90deg, #00f260 0%, #0575e6 100%); */
+    background-image: url("https://images.wallpapersden.com/image/download/pokemon-pikachu-art_a25tbW6UmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.poke{
+    /* background-color: aquamarine; */
+    display: grid;
+    overflow: auto;
+    height: 100%;
+    width: auto;
+}
+.titulo{
+    text-align: center;
+    font-size: 80px;
+    text-shadow: -2px 2px 2px whitesmoke;
+    text-decoration:underline;
+    
+}
+.cuadrado {
+    width: 44%; 
+    height: 250px; 
+    background: #ff0e0e;
+    box-shadow: -8px 4px 4px #940000;
+    border-radius: 0px 10px 0px 0px;
+ 
+    
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pokebola {
+    position: relative;
+    width: 28%;
+    height: 48%;
+    background-color: #FFF;
+    border: 5px solid #000;
+    border-radius: 50%;
+    box-shadow: inset -10px 10px 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: gira 4s infinite;
+    margin: 20px auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+.pokebola:before, .pokebola:after {
+    content: "";
+    position: absolute;
+}
+.pokebola:before {
+    background-color: #EF4036;
+    width: 100%;
+    height: 50%;
+}
+.pokebola:after {
+    top: calc(50% - 10px);
+    width: 100%;
+    height: 20px;
+    background-color: #000;
+}
+.pokebola-botao {
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    border: 10px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    z-index: 10;
+}
+.pokebola-botao:before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+    background-color: rgba(50, 216, 0, 0.74);
+    border: 3px solid #000;
+    border-radius: 50%;
+    z-index: 10;
+}
+.bisagra{
+    height: 40px;
+    width: 48%;
+    background-color: #ff0e0e;
+    transform: translateX(-4%);
+    box-shadow:-5px 3px 3px 1px #b60d0d;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+.c1{
+    background: linear-gradient(180deg, rgba(144,0,0,1) 0%, rgba(215,80,80,1) 49%, rgba(164,0,0,1) 100%);
+    width: 50px;
+    height: 40px;
+    /* margin-top: 2px; */
+    /* transform: translateY(2px); */
+    /* transform: translateX(3px); */
+    border-radius: 5px;
+    border: 1px solid;
+}
+.c2{
+    background: linear-gradient(180deg, rgba(144,0,0,1) 0%, rgba(215,80,80,1) 49%, rgba(164,0,0,1) 100%);
+    width: 50px;
+    height: 40px;
+    /* margin-top: 2px; */
+    border: 1px solid;
+    border-radius: 5px; 
+    padding-right: 2px;
+    /* margin-right: 3px; */
+    padding: -2px;
+}
+.screen-control{
+    background-color: #c00e0e;
+    width: 48%;
+    height:120%;
+    transform: translateX(-4%);
+    margin-top: 4px;
+    border-radius: 2px 2px 30px 30px;
+    box-shadow: 1px 1px 0px hsl(33,42%,40%),
+    2px 2px 0px hsl(33,42%,39%),
+    3px 3px 0px hsl(33,42%,38%),
+    4px 4px 0px hsl(33,42%,37%),
+    5px 5px 0px hsl(33,42%,36%);
+    
+}
+.controls{
+    background-color: #8b0100;
+    /* width: 160px; */
+    height: auto;
+    border-radius: 2px 2px 00px 30px;
+
+}
+.cv{
+    background-color: #2cb442;
+    width: 20px;
+    height:20px;
+    margin-top: 8%;
+    margin-left: -8%;
+    border-radius: 3px 0px 1px 2px;
+    border: 1px solid rgb(221, 221, 221);
+}
+.circulo {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #059fff;
+    margin-top: 80%;
+    margin-left: 30%;
+    box-shadow: 1px 2px rgb(255, 255, 255)
+}
+.screen{
+    /* width: 80%; */
+    height: 85%;
+    background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+}
+.screen1{
+    background-color: whitesmoke;
+    width: 95%;
+    height: 90%;
+    border-radius: 5px;
+    border: 3px solid gray;
+    
+}
+.search{
+    width: 50%;
+    height: 20%;
+    /* background-color: rgba(255, 255, 255, 0.644); */
+}
+.imag{
+    margin-top: -5%;
+    margin-left: -6.5%;
+}
+.specif{
+    margin-top: -4%;
+}
+/* @keyframes gira {
+    0% { transform: rotate(-45deg); }
+    50% { transform: rotate(45deg); }
+    100% { transform: rotate(-45deg); }
+} */
